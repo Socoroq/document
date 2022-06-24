@@ -1,0 +1,43 @@
+.wrapper {
+    min-height: 100%;
+}
+.page {
+    padding: 90px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+		&__section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            &__title {
+                font-size: 40px;
+                margin: 0 0 20px 0;
+            }
+
+            &__text {
+                font-size: 16px;
+                line-height: 150%;
+                p {
+                    margin: 0 0 20px 0;
+                }
+            }
+    
+            &__sub-title {
+                font-size: 30px;
+                margin: 0 0 20px 0;
+            }
+		}
+        &__section_1 {
+            background-color: grey;
+        }
+
+        &__section_2 {
+            background-color: aqua;
+        }
+
+        &__section_3 {
+            background-color: orange;
+        }
+}
