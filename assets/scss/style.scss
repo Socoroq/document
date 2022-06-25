@@ -1,20 +1,13 @@
 // Zeroing the browser
 @import "_null";
-
 // Overlay fonts
 @import "_fonts";
-
 // United Colors
 @import "_color";
-
-
-@import "_section";
-
-
+@import "_index";
+@import "_page";
 @import "_nav";
+@import "_form-input";
 
-.wrapper {
-    font-family: 'HelveticaNeueCyr';
-}
 
 @import "_media";
