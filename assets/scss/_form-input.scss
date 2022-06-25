@@ -138,34 +138,34 @@
     margin-right: 0.5em;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("/assets/img/1.svg");
+    background-image: url("../img/1.svg");
 }
 
 .form-filter__basic+.radio-filter::before {
     content: '';
-    background-image: url("/assets/img/2.svg");
+    background-image: url("../img/2.svg");
 }
 .form-filter__table+.radio-filter::before {
     content: '';
-    background-image: url("/assets/img/3.svg");
+    background-image: url("../img/3.svg");
 }
 
 .form-filter__basic:checked+.radio-filter::before {
     border-color: #1F1F1F;
     background-color: #ffffff;
-    background-image: url("/assets/img/22.svg");
+    background-image: url("../img/22.svg");
 }
 
 .form-filter__compare:checked+.radio-filter::before {
     border-color: #1F1F1F;
     background-color: #ffffff;
-    background-image: url("/assets/img/11.svg");
+    background-image: url("../img/11.svg");
 }
 
 .form-filter__table:checked+.radio-filter::before {
     border-color: #1F1F1F;
     background-color: #ffffff;
-    background-image: url("/assets/img/33.svg");
+    background-image: url("../img/33.svg");
 }
 
 
@@ -200,7 +200,7 @@
 .document-check:checked+.checkbox::before {
     border-color: #1F1F1F;
     background-color: #ffffff;
-    background-image: url("/assets/img/check.svg");
+    background-image: url("../img/check.svg");
 }
 
 
@@ -222,11 +222,11 @@
     height: 20px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("/assets/img/Vector.svg");
+    background-image: url("../img/Vector.svg");
 
 }
 
 .favorites:checked+.label__favorites::before {
     border-color: #1F1F1F;
-    background-image: url("/assets/img/bookmark-ribbon-7789.svg");
+    background-image: url("../img/bookmark-ribbon-7789.svg");
 }
