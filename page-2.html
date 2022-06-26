@@ -17,7 +17,7 @@
 
         <!-- Header site -->
         <div class="header">
-            <nav class="header__navbar navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="header__navbar navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <div class="icon">
                         <span class="toggles"></span>
@@ -145,15 +145,9 @@
                 <!-- Section dates and resolutions -->
                 <section class="section-date">
                     <div class="section-date__row row">
-
-
                         <!-- Heading -->
-                        <div class="col-2 ">
+                        <div class="col-12 d-flex">
                             <span class="section-date__personal-area title">Фильтры</span>
-                        </div>
-
-                        <!-- Resolution filter -->
-                        <div class="col-3 d-flex justify-content-start">
                             <div class="resolution">
                                 <input type="radio" name="resolution" id="resolution-1"
                                     class="resolution__check-1 resolution-check">
@@ -166,10 +160,6 @@
                                     class="resolution__check-3 resolution-check">
                                 <label for="resolution-3" class="resolution-label d-flex align-items-center"></label>
                             </div>
-                        </div>
-
-                        <!-- Date filter -->
-                        <div class="col-2 d-flex justify-content-start">
                             <div class="date">
                                 <input type="radio" name="date" id="date__month" class="date__month date-check">
                                 <label for="date__month" class="date-label d-flex align-items-center"></label>
@@ -180,10 +170,6 @@
                                 <input type="radio" name="date" id="date__year" class="date__year  date-check">
                                 <label for="date__year" class="date-label d-flex align-items-center"></label>
                             </div>
-                        </div>
-
-                        <!-- Month filter -->
-                        <div class="col-2 d-flex justify-content-start">
                             <ul class="month">
                                 <li class="btn month__arrow-left" role="presentation">
                                     <a class="nav-link active" id="" data-mdb-toggle="" href="" role="" aria-controls=""
@@ -212,6 +198,21 @@
                                         </svg></a>
                                 </li>
                             </ul>
+                        </div>
+
+                        <!-- Resolution filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
+                        </div>
+
+                        <!-- Date filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
+                        </div>
+
+                        <!-- Month filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
                         </div>
 
                         <!-- Job filter -->
@@ -272,7 +273,7 @@
                             <form amethod="post" class="form me-5">
                                 <input type="search" placeholder="Поиск" class="form__search">
                                 <div class="form__numbers align-items-center">
-                                    <span class="num-1 d-flex align-items-center">10</span>
+                                    <span class="num-1 d-flex align-items-center">1</span>
                                     <span>из</span>
                                     <span class="num-2"> 20</span>
                                     <span class="arrow-top d-flex align-items-center">
