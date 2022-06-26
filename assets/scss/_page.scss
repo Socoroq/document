@@ -173,6 +173,11 @@
 	left: 730px;
 }
 
+.dropdown-menu {
+	position: relative;
+	z-index: 15;
+}
+
 .file {
 	
 	&__btn {
@@ -185,6 +190,9 @@
 		border-radius: 3px;
 		padding: 10px;
 		background: #fff;
+		position: relative;
+		z-index: 1;
+		
 		&::before {
 			content: "";
 			width: 12px;
@@ -315,6 +323,7 @@
 	overflow-x: scroll;
 	position: relative;
 	z-index: 10;
+	
 	&::-webkit-scrollbar {
 		width: 17px; /* ширина для вертикального скролла */
 		height: 17px; /* высота для горизонтального скролла */
@@ -379,4 +388,10 @@
 		border: 1px solid #DCDCDC;
 		border-radius: 0px 3px 3px 0;
 	}
+}
+
+.box-filter__add-2 {
+	border-radius: 3px;
+	background-color: white;
+	
 }
