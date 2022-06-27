@@ -113,6 +113,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.main .section-date__colomn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1199px) {
+  .main .section-date__colomn {
+    display: block;
+  }
+}
+
 .main .section-date__personal-area {
   font-style: normal;
   font-weight: 400;
@@ -140,9 +152,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 58px !important;
 }
 
+@media (max-width: 1199px) {
+  .main .section-date .resolution, .main .section-date .date {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+}
+
 .main .section-date .date {
   width: 182px;
   margin-left: 20px !important;
+}
+
+@media (max-width: 1199px) {
+  .main .section-date .date {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
 }
 
 .main .section-date .month {
@@ -157,6 +183,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   width: 125px;
   margin-left: 25px !important;
+}
+
+@media (max-width: 1199px) {
+  .main .section-date .month {
+    margin-top: 10px !important;
+    margin-left: 7px !important;
+  }
 }
 
 .main .section-date .month__arrow-left {
@@ -933,6 +966,12 @@ h1, h2, h3, h4, h5, h6 {
   left: 0px;
 }
 
+@media (max-width: 992px) {
+  .header .icon {
+    display: none;
+  }
+}
+
 .header .icon .toggles, .header .icon::before, .header .icon::after {
   position: absolute;
   height: 2.3px;
@@ -983,6 +1022,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #1F1F1F;
   padding: 0 !important;
   padding-bottom: 5px !important;
+  margin-left: 5rem !important;
+}
+
+@media (max-width: 992px) {
+  .header__navbar-brand {
+    margin-left: 0rem !important;
+  }
 }
 
 .header__collapse {
@@ -1005,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .header__collapse {
     margin-left: 10px !important;
   }
@@ -1024,7 +1070,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 30px !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .header__collapse .navbar-nav {
     font-size: 14px;
   }
