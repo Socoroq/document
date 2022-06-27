@@ -56,11 +56,15 @@
         color: #1F1F1F;
         padding: 0 !important;
         padding-bottom: 5px !important;
-        margin-left: 5rem !important;
+    }
+
+    & .navbar-brand-2 {
+        margin-left: 1rem !important;
         @media (max-width: 992px) {
             margin-left: 0rem !important;
         }
     }
+    
 
     &__collapse {
         display: flex;
@@ -68,6 +72,9 @@
         align-items: center;
         height: 100%;
         margin-left: 93px !important;
+        background: #fff;
+        border: 1px solid #DCDCDC;
+        border-radius: 3px;
 
         @media (max-width: 1400px) {
             margin-left: 50px !important;
@@ -75,6 +82,16 @@
 
         @media (max-width: 1199px) {
             margin-left: 10px !important;
+        }
+
+        @media (max-width: 991px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start !important;
+            padding-left: 10px !important;
+            margin-left: 0px !important;
+            margin-top: 10px;
+
         }
 
         
@@ -103,6 +120,19 @@
     
             }
         }
+        @media (max-width: 991px) {
+            padding-top: 15px;
+            font-size: 16px;
+            margin-bottom: 15px !important;
+            & a {
+            
+                padding: 0;
+                padding-right: 15px !important;
+                padding-left: 0;
+                margin-bottom: 15px !important;
+    
+            }
+        }
     }
     }
 }
@@ -112,6 +142,9 @@
 .usernamebox {
     display: flex;
     align-items: center;
+    @media (max-width: 991px) {
+        margin-bottom: 15px;
+    }
     &_company-name {
         font-family: 'HelveticaNeueCyr';
         font-weight: 700;
