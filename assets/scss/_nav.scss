@@ -73,8 +73,7 @@
         height: 100%;
         margin-left: 93px !important;
         background: #fff;
-        border: 1px solid #DCDCDC;
-        border-radius: 3px;
+        
 
         @media (max-width: 1400px) {
             margin-left: 50px !important;
@@ -91,6 +90,8 @@
             padding-left: 10px !important;
             margin-left: 0px !important;
             margin-top: 10px;
+            border: 1px solid #DCDCDC;
+            border-radius: 3px;
 
         }
 

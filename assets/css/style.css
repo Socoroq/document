@@ -1048,8 +1048,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   margin-left: 93px !important;
   background: #fff;
-  border: 1px solid #DCDCDC;
-  border-radius: 3px;
 }
 
 @media (max-width: 1400px) {
@@ -1079,6 +1077,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 10px !important;
     margin-left: 0px !important;
     margin-top: 10px;
+    border: 1px solid #DCDCDC;
+    border-radius: 3px;
   }
 }
 
