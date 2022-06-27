@@ -385,6 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 42px;
   position: relative;
   z-index: 15;
+  padding-left: 5px;
 }
 
 .main .documentation__document:hover {
